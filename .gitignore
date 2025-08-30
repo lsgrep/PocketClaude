@@ -1,0 +1,233 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+*.cover
+.pytype/
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Project specific
+logs/
+*.log
+*.json
+!requirements.txt
+!package.json
+
+# Test outputs
+test-project/
+test-output/
+my-project/
+demo-project/
+test_simple_output/
+*.test
+*.tmp
+
+# Agent outputs
+agent_log_*.json
+agent_report_*.md
+progress.txt
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Monitoring
+monitor.pid
+*.pid
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Backups
+*.bak
+*.backup
+*_backup/
+backup/
+
+# OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.Spotlight-V100
+.Trashes
+
+# Node (if using npm packages)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Documentation build
+docs/_build/
+docs/.doctrees/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Cache
+.cache/
+*.cache
+
+# Temporary files
+tmp/
+temp/
+*.temp
+
+# Output directories
+output/
+outputs/
+results/
+
+# Lock files (keep package-lock.json if using npm)
+*.lock
+!package-lock.json
+
+# Credentials and secrets
+*.key
+*.pem
+*.crt
+*.p12
+secrets/
+credentials/
+
+# Archive files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Media files (if not needed)
+*.mp4
+*.avi
+*.mov
+*.mp3
+*.wav
+
+# Large data files
+*.csv
+*.xlsx
+*.xls
+data/
+datasets/
+
+# Model files
+*.pkl
+*.h5
+*.model
+models/
+
+# Compiled files
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution
+.pypirc
+
+# Local configuration
+config.local.yml
+config.local.yaml
+settings.local.json
+
+# Session files
+sessions/
+*.session
+
+# Monitoring and metrics
+metrics/
+*.metrics
+
+# Generated documentation
+*.generated.md
+api-docs/
+
+# Test coverage reports
+coverage.xml
+*.cover
+.coverage.*
+
+# Performance profiling
+*.prof
+*.lprof
+
+# Debug files
+*.debug
+debug/
+
+# Crash logs
+crash.log
+*.crash
+
+# System files
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Claude Code specific
+.claude/
+claude-cache/
+.claude-code/
+
+# PocketFlow specific
+pocketflow-cache/
+.pocketflow/
+
+# Keep these files
+!.gitignore
+!README.md
+!SHARING.md
+!requirements.txt
+!docs/design.md
+!utils/__init__.py
+!main.py
+!nodes.py
+!flow.py
+!monitor.py
+!example.py
